@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style4.css">
+
+</head>
+<body class="bg-body-tertiary">
+ <div class = "container-xl py-5"> 
+    <header class="mb-5">
+<h1 class = "text-center text-primary mb-5">
+    Shopping Cart System
+</h1>
+</header>
+
+
+<div class="row g-4">
+<div class="col-lg-8">
+<div class="card shadow border-0 rounded-4 h-100 ">
+<div class="card-body">
+<h2 class="text-center  fw-bold mb-4">
+            Available Products
+        </h2>
+
+<div id="productList" class="row g-4">
+</div>
+    </div>
+</div>
+    </div>
+
+<div class="col-lg-4">
+<div class = "card shadow rounded-4 h-100">
+<div class="card-body">
+<h2 class="text-center  fw-bold mb-4">
+    Shopping Cart
+</h2>
+<div id="cartItems">
+<p class="text-center text-muted">
+  Your cart is empty.
+</p>
+</div>
+<hr>
+
+<div class="d-flex justify-content-between align-items-center mb-3"></div>
+<h5 class="mt-0">
+    Total Items :
+<span class="badge bg-primary" id="totalItems">
+         0
+</span>
+</h5>
+ <h4 class="text-success fw-bold">
+     Grand Total : Rs.
+<span id="grandTotal">
+     0
+</span>
+ </h4>
+ 
+ <button 
+ class = "btn btn-danger w-100 mt-4 rounded-pill"
+ onclick ="cart.clearCart()">
+Clear cart
+</button>
+
+
+</div>
+</div>
+</aside>
+</div>
+ </div> 
+<script src="script4.js"></script>
+</body>
+</html>
+
+
+
+
+
