@@ -96,4 +96,5 @@ This ensures the UI never falls out of sync with the underlying cart state.
 
 Author :
 Nihal e Adan
+
 Built as a learning project to practice JavaScript ES6 Classes, DOM manipulation, and `localStorage`-based state persistence.
