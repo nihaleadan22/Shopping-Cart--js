@@ -1,4 +1,3 @@
-# Shopping-Cart - js
 # 🛒 Shopping Cart System
 
 A fully functional, client-side shopping cart application built with vanilla JavaScript (ES6 Classes), Bootstrap 5, and browser `localStorage` for persistence. Users can browse products, add them to a cart or wishlist, adjust quantities, and see live-updating totals — all without a backend or page reload.
